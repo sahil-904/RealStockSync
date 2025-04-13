@@ -13,7 +13,7 @@ RealStockSync is a real-time, end-to-end stock price prediction pipeline that co
 - 📊 Sentiment analysis using **TextBlob**
 - 🧮 Feature engineering (EMA, RSI, MACD, PCA, etc.)
 - 📁 Data storage in **MongoDB**
-- 📉 Dashboard visualization with **Dash (Plotly)**
+- 📉 Dashboard visualization with **Dash (Plotly)** and **Tableau**
 - 🧪 Evaluation metrics: R², RMSE, MAE, Directional Accuracy
 - 🔔 Anomaly detection and alerting on prediction deviations
 
@@ -31,8 +31,7 @@ RealStockSync is a real-time, end-to-end stock price prediction pipeline that co
 - MongoDB
 - LightGBM, LSTM (Keras/TensorFlow)
 - Dash (Plotly), Tableau
-- TextBlob (for sentiment analysis)
-- Yahoo Finance API, Tweepy
+- Yahoo Finance API
 
 ---
 
@@ -61,6 +60,7 @@ RealStockSync is a real-time, end-to-end stock price prediction pipeline that co
 ## 📈 Sample Visualization
 
 ![Ensemble Prediction vs Actual Value for Each Stock](output_data/ensemble_model_prediction.png)
+![Tableau Dashboard](output_data/tableau_ss.png)
 
 The above visualization compares the ensemble model’s predictions with actual closing prices for multiple stocks. This plot demonstrates how closely the model tracks real stock market behavior, offering a quick visual assessment of prediction accuracy across time.
 
@@ -105,8 +105,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## 🙌 Acknowledgements
 
 - [Yahoo Finance](https://finance.yahoo.com/) for financial data
-- [Tweepy](https://www.tweepy.org/) and [Twitter API] for sentiment data
-- [TextBlob](https://textblob.readthedocs.io/en/dev/) for sentiment analysis
 - [LightGBM](https://lightgbm.readthedocs.io/) and [Keras](https://keras.io/) for machine learning
 - [Apache Kafka](https://kafka.apache.org/) and [MongoDB](https://www.mongodb.com/) for streaming and storage
 - [Plotly Dash](https://dash.plotly.com/) for the web dashboard
